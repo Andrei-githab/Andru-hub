@@ -68,7 +68,7 @@ def comb_sort(alist):
 
 
 # Создаем массив
-data = np.arange(100000)
+data = np.arange(1000)
 # Получаем размер массива data
 size = len(data)
 # Примешиваем массив
@@ -79,12 +79,12 @@ start = timer()
 
 # bubble_sort(data)
 # selection_sort(data, size)
-insertion_sort(data)
+# insertion_sort(data)
 # shell_sort(data)
 # comb_sort(data)
 
 # Засекаем время окончания работы алгоритма
 end = timer()
 
-# Выводим Время работы алгоритма
-print(end - start)
+# Выводим время работы алгоритма
+print("Время работы алгоритма -> ", end - start)
