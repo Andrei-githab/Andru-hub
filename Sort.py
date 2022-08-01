@@ -80,11 +80,11 @@ start = timer()
 # bubble_sort(data)
 # selection_sort(data, size)
 # insertion_sort(data)
-# shell_sort(data)
+shell_sort(data)
 # comb_sort(data)
 
 # Засекаем время окончания работы алгоритма
 end = timer()
 
 # Выводим время работы алгоритма
-print("Время работы алгоритма -> ", end - start)
+print("Время работы алгоритма -> ", end - start, " ms")
